@@ -1,0 +1,26 @@
+emulators:
+  Nexus5:
+    caps:
+     deviceName: "Nexus 5"
+     platformName: "Android"
+     version: "7.0"
+     app: "C:/AutomacaoTreinamentos/INLabs/Mobile/Teste_Appium/AppiumTest/features/support/ApkProvaCarros.apk"
+     appPackage: "br.com.ftec.ailton.cadastrodecarrosweb"
+     appActivity: "br.com.ftec.ailton.cadastrodecarrosweb.MainActivity"
+     newCommandTimeout: "3600"
+     port: 4723
+     appium_port: 4723
+     appium_lib: { wait: 20, debug: false}
+
+  iphone7:
+   caps:
+    deviceName: "iPhone 7"
+    platformName: "iOS"
+    platformVersion: "10.3"
+    versionNumber: "30E00FF4-798B-4E51-85ED-3F5F87362441"
+    app: "/Users/t2909frn/Library/Developer/Xcode/DerivedData/CieloFidelidade-enbofxhqbpvbuzdkwdionpcuenbg/Build/Products/Debug-iphonesimulator/CieloFidelidade.app"
+    newCommandTimeout: "3600"
+    automationName: "XCUITest"
+    port: 8100
+    appium_port: 8100
+    appium_lib: { wait: 20, debug: false}

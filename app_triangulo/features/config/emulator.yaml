@@ -1,0 +1,12 @@
+emulators:
+  Nexus: 
+    caps:
+      deviceName: "Nexus"
+      platformName: "Android"
+      version: "7.0"
+      app: "C:/Users/Inmetrics/Desktop/Dojo/dojo_appium_221118/features/TrianguloApp.apk"
+      appPackage: "com.eliasnogueira.trianguloapp"
+      appActivity: "com.eliasnogueira.trianguloapp.MainActivity"
+      newCommandTimeout: "3600"
+      port: 4723
+      appium_port: 4723
